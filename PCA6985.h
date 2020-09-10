@@ -1,6 +1,6 @@
 class PCA9685 {
     public:
-    PCA6985 (char chipAddress);
+    PCA9685 (char chipAddress);
     
     static const int chipResolution = 4096;
     static const char PrescaleReg = 0xFE; //the prescale register address
